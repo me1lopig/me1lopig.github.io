@@ -6,7 +6,7 @@ permalink: /about/
 
 ## 👨‍🏫 Sobre mí
 
-¡Hola! Soy **Germán López Pineda**, profesor de **Mecánica** en la **Universidad de Córdoba** y apasionado por el desarrollo de software, la enseñanza y la investigación.
+¡Hola! Soy **Germán López Pineda**, Profesor Asociado en la Universidad de Córdoba.
 
 ## 🎓 Formación
 
@@ -16,7 +16,7 @@ permalink: /about/
 
 ## 💼 Experiencia
 
-- **Profesor Titular**: Departamento de Mecánica, Universidad de Córdoba (2012 - Actualidad).
+- **Profesor Asociado**: Departamento de Mecánica, Universidad de Córdoba (2012 - Actualidad).
 - **Investigador**: Proyectos de simulación de estructuras (2008 - 2012).
 - **Desarrollador Freelance**: Proyectos web y herramientas de análisis (2015 - Actualidad).
 
