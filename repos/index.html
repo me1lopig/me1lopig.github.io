@@ -1,0 +1,22 @@
+---
+layout: page
+title: Repositorios
+permalink: /repos/
+---
+
+<div class="filters">
+  <input type="text" id="repo-search" placeholder="Buscar repositorios...">
+  <select id="language-filter">
+    <option value="">Todos los lenguajes</option>
+    <!-- Las opciones se añadirán dinámicamente -->
+  </select>
+  <select id="sort-filter">
+    <option value="updated">Última actualización</option>
+    <option value="stars">Estrellas (⭐)</option>
+    <option value="name">Nombre (A-Z)</option>
+  </select>
+</div>
+
+<div class="repos-container" id="repos-container">
+  <!-- Los repositorios se cargarán aquí dinámicamente desde la API de GitHub -->
+</div>

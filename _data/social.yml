@@ -1,0 +1,16 @@
+# Enlaces a redes sociales
+- name: GitHub
+  icon: fab fa-github
+  url: https://github.com/me1lopig
+
+- name: LinkedIn
+  icon: fab fa-linkedin
+  url: https://linkedin.com/in/germán-lópez-pineda-1a2b3c4
+
+# - name: Twitter
+#   icon: fab fa-twitter
+#   url: https://twitter.com/tu-usuario
+
+# - name: Email
+#   icon: fas fa-envelope
+#   url: mailto:german.lopez.pineda@uco.es

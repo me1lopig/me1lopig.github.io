@@ -1,0 +1,16 @@
+# Lista de repositorios (opcional, para evitar depender de la API de GitHub)
+# Si usas la API, este archivo no es necesario.
+# Puedes generarlo automáticamente con un script.
+
+- name: me1lopig.github.io
+  description: Página personal con repositorios y blog
+  html_url: https://github.com/me1lopig/me1lopig.github.io
+  language: HTML
+  stargazers_count: 0
+  forks_count: 0
+  updated_at: 2024-06-28
+  homepage: https://me1lopig.github.io
+  topics: [jekyll, portfolio, github-pages]
+  featured: true
+
+# Añade más repositorios aquí o usa la API de GitHub para obtenerlos dinámicamente

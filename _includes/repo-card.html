@@ -1,0 +1,53 @@
+<div class="repo-card" data-language="{{ repo.language | downcase }}" data-topics="{{ repo.topics | join: ' ' | downcase }}">
+  <div class="repo-header">
+    <h3>
+      <a href="{{ repo.html_url }}" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-folder"></i> {{ repo.name }}
+      </a>
+    </h3>
+    {% if repo.featured %}
+      <span class="repo-badge featured">Destacado</span>
+    {% endif %}
+  </div>
+  
+  <p class="repo-description">{{ repo.description | default: "Sin descripción" }}</p>
+  
+  <div class="repo-meta">
+    {% if repo.language %}
+      <span class="repo-language">
+        <i class="fas fa-code"></i> {{ repo.language }}
+      </span>
+    {% endif %}
+    
+    <span class="repo-stars">
+      <i class="fas fa-star"></i> {{ repo.stargazers_count | default: 0 }}
+    </span>
+    
+    <span class="repo-forks">
+      <i class="fas fa-code-branch"></i> {{ repo.forks_count | default: 0 }}
+    </span>
+    
+    <span class="repo-updated">
+      <i class="fas fa-sync-alt"></i> {{ repo.updated_at | date: "%d %b %Y" }}
+    </span>
+  </div>
+  
+  {% if repo.topics %}
+    <div class="repo-topics">
+      {% for topic in repo.topics %}
+        <span class="topic-tag">#{{ topic }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+  
+  <div class="repo-links">
+    <a href="{{ repo.html_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+      <i class="fab fa-github"></i> Ver repositorio
+    </a>
+    {% if repo.homepage %}
+      <a href="{{ repo.homepage }}" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
+        <i class="fas fa-external-link-alt"></i> Demo
+      </a>
+    {% endif %}
+  </div>
+</div>

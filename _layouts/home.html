@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="hero-content">
+    {% if site.author %}
+      <h1>{{ site.author.name }}</h1>
+      <p class="hero-description">{{ site.author.bio }}</p>
+    {% endif %}
+    
+    {% include social-links.html %}
+  </div>
+</div>
+
+<div class="container">
+  {{ content }}
+</div>

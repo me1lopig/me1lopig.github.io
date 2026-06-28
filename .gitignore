@@ -1,0 +1,24 @@
+# Dependencies
+/vendor/
+.sass-cache/
+
+# Jekyll
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+# Node.js
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

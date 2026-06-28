@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Enlaces rápidos</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+          <li><a href="{{ '/repos/' | relative_url }}">Repositorios</a></li>
+          <li><a href="{{ '/posts/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Sobre mí</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Redes sociales</h3>
+        {% include social-links.html %}
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p>
+          <i class="fas fa-envelope"></i> 
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Todos los derechos reservados.</p>
+      <p>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> |
+        <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </div>
+</footer>

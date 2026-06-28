@@ -1,0 +1,63 @@
+# Configuración de Jekyll
+
+# Información del sitio
+title: Germán López Pineda
+description: >-
+  Página personal con mis repositorios de GitHub, proyectos y blog técnico.
+url: "https://me1lopig.github.io"
+baseurl: ""
+
+# Autor
+author:
+  name: Germán López Pineda
+  email: german.lopez.pineda@uco.es
+  github: me1lopig
+  linkedin: germán-lópez-pineda-1a2b3c4
+  twitter: ""
+  bio: >-
+    Profesor de Mecánica en la Universidad de Córdoba.
+    Apasionado por el desarrollo de software, la enseñanza y la investigación.
+
+# Configuración de Jekyll
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Paginación
+paginate: 10
+paginate_path: "/repos/page:num/"
+
+# Excluir archivos
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Configuración para repositorios de GitHub
+github:
+  username: me1lopig
+  sort_by: updated  # Opciones: updated, stars, name
+  exclude_repos: []  # Repositorios a excluir (ej: ["me1lopig.github.io"])
+
+# Configuración para Giscus (comentarios)
+giscus:
+  repo: me1lopig/me1lopig.github.io
+  repo_id: ""
+  category: General
+  category_id: ""
+  theme: light
+  lang: es
+
+# Configuración para Formspree (formulario de contacto)
+formspree_id: ""
