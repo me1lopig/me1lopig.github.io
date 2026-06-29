@@ -14,7 +14,6 @@ excerpt: "Presentación de mi nueva página web construida con Jekyll y GitHub P
 
 - **Todos mis repositorios de GitHub** en un solo lugar.
 - **Posts técnicos** sobre proyectos, tutoriales y más.
-- **Información sobre mí** y mi trabajo.
 
 ## ¿Por qué Jekyll?
 

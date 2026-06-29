@@ -2,14 +2,13 @@
 
 Página web personal de **Germán López Pineda**, construida con **Jekyll** y alojada en **GitHub Pages**.
 
-## 📌 Descripción
+## 📜 Descripción
 
 Esta página web sirve como:
 - **Portal centralizado** para todos mis repositorios de GitHub.
 - **Blog técnico** donde comparto posts sobre desarrollo, mecánica y más.
-- **Perfil profesional** con información sobre mí y mi trabajo.
 
-## 🏗 Estructura del proyecto
+## 🗂️ Estructura del proyecto
 
 ```bash
 me1lopig.github.io/
@@ -41,7 +40,6 @@ me1lopig.github.io/
 ├── posts/                   # Página de blog
 │   └── index.html
 ├── index.md                 # Página principal
-├── about.md                 # Página "Sobre mí"
 ├── 404.html                 # Página de error 404
 ├── Gemfile                  # Dependencias de Ruby
 ├── Gemfile.lock
@@ -107,22 +105,22 @@ Si prefieres usar datos estáticos, edita `_data/repos.yml`:
   featured: true
 ```
 
-## 🔧 Configuración
+## ⚙️ Configuración
 
 Edita `_config.yml` para personalizar:
 - Título y descripción del sitio.
 - Información del autor (nombre, email, redes sociales).
 - Configuración de Jekyll (plugins, paginación, etc.).
 
-## 📄 Licencia
+## 📜 Licencia
 
 Este proyecto está bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
 
-## 🙌 Contribuciones
+## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna sugerencia, abre un **issue** o envía un **pull request**.
 
-## 📫 Contacto
+## 📧 Contacto
 
 - **Email**: [german.lopez.pineda@uco.es](mailto:german.lopez.pineda@uco.es)
 - **GitHub**: [me1lopig](https://github.com/me1lopig)
