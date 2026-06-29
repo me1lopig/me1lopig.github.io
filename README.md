@@ -122,6 +122,6 @@ Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna s
 
 ## 📧 Contacto
 
-- **Email**: [german.lopez.pineda@uco.es](mailto:german.lopez.pineda@uco.es)
+- **Email**: [me1lopig@uco.es](mailto:me1lopig@uco.es)
 - **GitHub**: [me1lopig](https://github.com/me1lopig)
 - **LinkedIn**: [Germán López Pineda](https://linkedin.com/in/germán-lópez-pineda-1a2b3c4)
