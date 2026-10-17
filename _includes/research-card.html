@@ -1,0 +1,28 @@
+<article class="publication-card">
+  <div class="pub-header">
+    <h3 class="pub-title">{% if publication.url and publication.url != "" %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+    <div class="pub-meta">
+      <span class="pub-authors">{{ publication.authors }}</span>
+      <span class="pub-venue"> — {{ publication.venue }} ({{ publication.year }})</span>
+    </div>
+  </div>
+
+  {% if publication.abstract %}
+    <p class="pub-abstract">{{ publication.abstract }}</p>
+  {% endif %}
+
+  <div class="pub-tags">
+    {% for tag in publication.tags %}
+      <span class="topic-tag">#{{ tag }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="pub-links" style="margin-top:0.8rem;">
+    {% if publication.doi and publication.doi != "" %}
+      <a href="{{ publication.doi }}" target="_blank" class="btn btn-secondary btn-small">Enlace DOI</a>
+    {% endif %}
+    {% if publication.url and publication.url != "" %}
+      <a href="{{ publication.url }}" target="_blank" class="btn btn-primary btn-small">PDF / Recursos</a>
+    {% endif %}
+  </div>
+</article>

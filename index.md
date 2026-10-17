@@ -60,6 +60,22 @@ title: Inicio
     </section>
   {% endif %}
 
+  <!-- Research highlights -->
+  {% assign pubs = site.data.research.publications | where: "featured", true %}
+  {% if pubs and pubs.size > 0 %}
+    <section id="research-highlights" class="section">
+      <h2>Investigación destacada</h2>
+      <div class="publications-grid">
+        {% for pub in pubs limit:3 %}
+          {% include research-card.html publication=pub %}
+        {% endfor %}
+      </div>
+      <div style="text-align:center; margin-top:1rem;">
+        <a href="{{ '/research/' | relative_url }}" class="btn btn-secondary">Ver todas las publicaciones</a>
+      </div>
+    </section>
+  {% endif %}
+
   <!-- Dynamic list populated by JS (API) -->
   <section id="projects" class="section">
     <h2 id="repos">Más proyectos</h2>

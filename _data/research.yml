@@ -1,0 +1,46 @@
+# Investigación
+
+# Formato de ejemplo para publicaciones, charlas y proyectos. Añade o actualiza según necesites.
+
+publications:
+  - title: "Modelado de comportamiento en redes de sensores"
+    authors: "G. López Pineda, A. Pérez"
+    venue: "Revista Internacional de Sensores"
+    year: 2023
+    doi: "https://doi.org/10.1234/example.doi"
+    url: "https://example.com/publication1.pdf"
+    abstract: "Estudio sobre el modelado y análisis del comportamiento en redes de sensores aplicadas a entornos industriales."
+    tags: [redes, sensores, modelado]
+    featured: true
+
+  - title: "Buenas prácticas para documentación reproducible"
+    authors: "G. López Pineda, B. Martínez"
+    venue: "Conferencia de Ingeniería de Software Educativo"
+    year: 2022
+    doi: ""
+    url: "https://example.com/publication2.pdf"
+    abstract: "Propuesta de plantilla y flujo de trabajo para documentación técnica reproducible en entornos académicos."
+    tags: [documentacion, reproducibilidad]
+    featured: true
+
+talks:
+  - title: "Documentación científica reproducible"
+    event: "Jornadas de Innovación Docente, UCO"
+    date: 2024-05-15
+    slides: "https://example.com/slides-reproducible.pdf"
+
+  - title: "Introducción a Jekyll para docentes"
+    event: "Seminario sobre herramientas docentes"
+    date: 2023-11-20
+    slides: ""
+
+projects:
+  - title: "Toolkit de documentación reproducible"
+    description: "Colección de plantillas, scripts y guías para producir documentación técnica reproducible y accesible en proyectos académicos."
+    url: "https://github.com/me1lopig/toolkit-documentacion"
+    featured: true
+
+  - title: "Dataset de experimentos sobre sensores"
+    description: "Repositorio con datos y scripts de análisis utilizados en las publicaciones sobre redes de sensores."
+    url: "https://github.com/me1lopig/sensor-data"
+    featured: false
