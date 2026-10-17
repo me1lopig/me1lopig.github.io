@@ -9,26 +9,30 @@
           <li><a href="{{ '/posts/' | relative_url }}">Blog</a></li>
         </ul>
       </div>
-      
+
       <div class="footer-section">
-        <h3>Redes sociales</h3>
+        <h3>Redes</h3>
         {% include social-links.html %}
       </div>
-      
+
       <div class="footer-section">
         <h3>Contacto</h3>
         <p>
-          <i class="fas fa-envelope"></i> 
+          <i class="fas fa-envelope"></i>
           <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </p>
+        <p>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">@{{ site.author.github }}</a>
         </p>
       </div>
     </div>
-    
+
     <div class="footer-bottom">
       <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Todos los derechos reservados.</p>
       <p>
         <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> |
-        <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
       </p>
     </div>
   </div>

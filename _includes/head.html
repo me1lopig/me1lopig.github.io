@@ -1,8 +1,11 @@
 <!-- Meta tags adicionales -->
 <meta name="author" content="{{ site.author.name | default: '' }}">
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">

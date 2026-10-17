@@ -3,16 +3,37 @@ layout: default
 ---
 
 <div class="hero">
-  <div class="hero-content">
-    {% if site.author %}
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow">Desarrollador • Investigador • Profesor</span>
       <h1>{{ site.author.name }}</h1>
-      <p class="hero-description">{{ site.author.bio }}</p>
-    {% endif %}
-    
-    {% include social-links.html %}
+      <p class="hero-description">{{ site.author.bio | default: site.description }}</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#repos">Ver proyectos</a>
+        <a class="btn btn-secondary" href="{{ '/posts/' | relative_url }}">Leer blog</a>
+      </div>
+
+      {% include social-links.html %}
+    </div>
+
+    <div class="hero-panel">
+      <div class="info-card">
+        <span class="info-label">Especialidad</span>
+        <strong>Jekyll · GitHub Pages</strong>
+      </div>
+      <div class="info-card">
+        <span class="info-label">Intereses</span>
+        <strong>Software, documentación y producción técnica</strong>
+      </div>
+      <div class="info-card info-card-accent">
+        <span class="info-label">Contacto</span>
+        <strong><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></strong>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container home-content">
   {{ content }}
 </div>
